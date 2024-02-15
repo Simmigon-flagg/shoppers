@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+li {
+  list-style: none;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
+
+/* Media query for phones in portrait mode */
+@media only screen and (max-width: 480px) {
+  /* Your CSS styles for phones in portrait mode go here */
+}
+
+/* Media query for phones in landscape mode */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  /* Your CSS styles for phones in landscape mode go here */
+}
+
+/* Additional media queries can be added as needed */

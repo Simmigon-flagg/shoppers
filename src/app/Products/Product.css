@@ -1,0 +1,115 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  z-index: -2;
+
+}
+
+.card {
+
+  margin: 20px;
+  border: 2px solid #ededed;
+  padding: 20px;
+  cursor: pointer;
+  /* background-color: blue; */
+}
+
+.card-img {
+  width: 13rem;
+  /* height: 2rem; */
+  margin-bottom: 1rem;
+  /* object-fit: cover; */
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.rating-star {
+  color: #d5ab55;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bag-icon {
+  color: #535353;
+}
+
+.image-container {
+  width: auto;
+  height: 69.5%;
+  background: rgb(255, 0, 234);
+}
+
+.card-details {
+  margin-bottom: 25%;
+  background: rgb(255, 0, 234);
+}
+
+/* Media query for phones in portrait mode */
+@media only screen and (max-width: 480px) {
+
+  /* Your CSS styles for phones in portrait mode go here */
+  .card-container {
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-left: 20rem;
+    margin-top: 2rem;
+    z-index: -2;
+    /* z-index: -2; */
+
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  /* Your CSS styles for phones in portrait mode go here */
+  .card-container {
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-left: 20rem;
+    margin-top: 2rem;
+    z-index: -2;
+    /* z-index: -2; */
+
+  }
+}
+
+/* Media query for phones in landscape mode */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  /* Your CSS styles for phones in landscape mode go here */
+
+  .card-container {
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-left: 20rem;
+    margin-top: 2rem;
+    z-index: -2;
+    /* z-index: -2; */
+
+  }
+
+
+}
+
+/* Additional media queries can be added as needed */
